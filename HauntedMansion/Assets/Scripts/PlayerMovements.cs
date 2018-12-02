@@ -6,12 +6,6 @@ public class PlayerMovements : MonoBehaviour {
     [SerializeField] Rigidbody2D playerRigidbody;
     [SerializeField] float playerSpeed;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
 	void Update () {
         if (Input.GetAxisRaw("Horizontal") != 0)
         {

@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Tilemap
+  - RightCollider
   layers:
   - Default
   - TransparentFX
@@ -44,4 +45,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3059404979
+    locked: 0
+  - name: Enemies
+    uniqueID: 3325662331
     locked: 0
