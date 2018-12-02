@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 61452122127198088}
   - component: {fileID: 61050746022388088}
   - component: {fileID: 61141450318335786}
+  - component: {fileID: 114511262839431390}
   m_Layer: 0
   m_Name: TileX
   m_TagString: Untagged
@@ -173,6 +174,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.31, y: 0.31}
   m_EdgeRadius: 0
+--- !u!114 &114511262839431390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602810842264546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df28364b40b19dc4eb901aa0aea34688, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212714901564413950
 SpriteRenderer:
   m_ObjectHideFlags: 1
